@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProPresenter Very Lite</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+<div id="mySidebar" class="sidebar">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+   
+</div>
+
+<div id="main">
+  <div class="stickyheader" id="TopHeader">
+  <button class="openbtn" onclick="openNav()">☰</button>
+  <button class="openbtn" onclick="Navigate(-10000)">&lt&lt</button>
+  <button class="openbtn" onclick="Navigate(-1)">&lt</button>
+  <button class="openbtn" onclick="Navigate(1)">&gt</button>
+  <button class="openbtn" onclick="Navigate(10000)">&gt&gt</button>
+  </div>
+ </div>
+ <div id="root"></div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
